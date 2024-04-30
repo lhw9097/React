@@ -19,14 +19,14 @@ const EventPractice = () => {
       <h1>이벤트 연습</h1>
       <input
         type="text"
-        placeholder="아무거나 입력"
+        placeholder="앞부분"
         value={userName}
         onChange={(e) => setUserName(e.target.value)}
       />
       <input
         type="text"
         value={message}
-        placeholder="아무거나 입력"
+        placeholder="뒷부분"
         onChange={(e) => setMessage(e.target.value)}
         onKeyDown={onKeyPress}
       />
